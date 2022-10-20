@@ -8,17 +8,14 @@
                         <label>Name</label>
                         <input type="text" class="form-control" v-model="subscription.name" required>
                     </div>
-
                     <div class="form-group">
                         <label>Description</label>
                         <input type="text" class="form-control" v-model="subscription.description" required>
                     </div>
-
                     <div class="form-group">
                         <label>Amount</label>
                         <input type="text" class="form-control" v-model="subscription.amount" required>
                     </div>
-
                     <div class="form-group">
                         <label>Payment Frequency</label>
                         <select id='frequency' class="form-control" v-model="subscription.frequency" required>
@@ -38,10 +35,8 @@
         </div>
     </div> 
 </template> 
-
 <script> 
 import db from '../firebaseDb'
-
     export default { 
         data() { 
             return {
